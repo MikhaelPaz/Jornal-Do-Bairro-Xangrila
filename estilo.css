@@ -1,0 +1,16 @@
+section{
+    background-color: beige;
+}
+header{
+    background-color: silver;
+}
+footer{
+    background-color: rgb(100, 100, 100);
+}
+body{
+    background-color: turquoise;
+}
+#video{
+    width: 700px;
+    height: 420px;
+}
