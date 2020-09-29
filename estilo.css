@@ -1,0 +1,51 @@
+section{
+    background-color: beige;
+}
+header{
+    background-color: silver;
+    padding-top: 1px;
+}
+footer{
+    background-color: rgb(100, 100, 100);
+    padding-bottom: 1px;
+}
+body{
+    background-color: turquoise;
+    margin: 0px;
+    padding: 0px;
+}
+#video{
+    width: 700px;
+    height: 420px;
+}
+a{
+    text-decoration: none;
+}
+
+a#link1:visited{
+    color: black;
+}
+a#link1:link{
+    color: orange;
+}
+#menu{
+    animation-name: h2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes h2{
+    from {color: black;}
+  to {color: blueviolet;} 
+}
+
+a.nav:visited{
+    color: red;
+}
+a.nav:link{
+    color: black;
+}
+a.nav:hover{
+    background-color: black;
+    color: white;
+}
